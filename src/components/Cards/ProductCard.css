@@ -1,0 +1,41 @@
+.product {
+    height: 400px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    box-shadow: 2px 2px white;
+}
+
+.face {
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.mt-10 {
+    margin-top: 20px;
+}
+
+.card .card-body{ display: table; width: 100%; padding: 12px; }
+
+.card-price{ border-color: #999; background-color: #ededed; margin-bottom: 24px; }
+
+.card-price .price{ 
+  text-align: center; 
+  color: #337ab7; 
+  font-size: 1em; 
+}
+
+.card-price table .mod-date{ 
+    color: #666; 
+    font-size: 0.7em; 
+    line-height: 2em;
+}
+
+.details li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
